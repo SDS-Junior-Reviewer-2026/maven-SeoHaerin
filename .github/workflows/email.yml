@@ -26,6 +26,6 @@ jobs:
       - name: Send Email with SES
         run: |
           aws ses send-email \
-            --from "mincoding@naver.com" \
-            --destination "seika3695@gmail.com" \
-            --message "Subject={Data=테스트 메일 전송},Body={Text={Data=안녕? KFC from GitHub Actions}}"
+            --from "seika3695@gmail.com" \
+            --destination "sejin.choi@mincoding.co.kr" \
+            --message "Subject={Data=테스트 메일 전송},Body={Text={Data=안녕하세요! KFC from GitHub Actions}}"
